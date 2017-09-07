@@ -52,7 +52,7 @@ Shadowsocksr-libev for OpenWrt/LEDE
    cd OpenWrt-SDK-ar71xx-*
    # 安装 feeds
    # 如果是 uClibc SDK (15.05.1 及以下)
-     git clone https://github.com/AlexZhuo/openwrt-feeds.git package/feeds
+     git clone git@github.com:wuqianxing/openwrt-feeds.git package/feeds
    # 如果是 musl SDK (trunk 或 LEDE)
      ./scripts/feeds update base packages
      ./scripts/feeds install zlib libopenssl libpolarssl libmbedtls libpcre
